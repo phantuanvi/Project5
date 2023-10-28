@@ -7,13 +7,26 @@
       "type": "string",
       "minLength": 1
     },
-    "dueDate": {
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "price": {
       "type": "string"
     }
   },
   "required": [
     "name",
-    "dueDate"
+    "description",
+    "quantity",
+    "unit",
+    "price"
   ],
   "additionalProperties": false
 }
