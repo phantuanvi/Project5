@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import * as middy from 'middy'
 import { cors, httpErrorHandler } from 'middy/middlewares'
 
-import { updateItem } from '../../helpers/items'
+import { updateItem } from '../../businessLogic/items'
 import { UpdateItemRequest } from '../../requests/UpdateItemRequest'
 import { getUserId } from '../utils'
 

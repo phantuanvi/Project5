@@ -1,4 +1,4 @@
-import { ItemsAccess } from './itemsAcess'
+import { ItemsAccess } from '../dataAccessLayer/itemsAcess'
 import { Item } from '../models/Item'
 import { CreateItemRequest } from '../requests/CreateItemRequest'
 import { UpdateItemRequest } from '../requests/UpdateItemRequest'
